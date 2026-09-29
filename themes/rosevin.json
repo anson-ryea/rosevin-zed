@@ -210,12 +210,12 @@
                     },
                     "comment": {
                         "color": "#6D7A72",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "comment.doc": {
                         "color": "#9498ai",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "constant": {
@@ -225,7 +225,7 @@
                     },
                     "constructor": {
                         "color": "#F5A6C6",
-                        "font_style": "normal",
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "embedded": {
@@ -235,7 +235,7 @@
                     },
                     "emphasis": {
                         "color": "#f3b4bf",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "emphasis.strong": {
@@ -245,7 +245,7 @@
                     },
                     "enum": {
                         "color": "#ffc85b",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "function": {
@@ -255,13 +255,13 @@
                     },
                     "function.builtin": {
                         "color": "#ff62a5",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "hint": {
                         "color": "#3bc089",
                         "font_style": null,
-                        "font_weight": 700
+                        "font_weight": null
                     },
                     "keyword": {
                         "color": "#FF4791",
@@ -280,8 +280,11 @@
                     },
                     "link_uri": {
                         "color": "#ff62a5",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
+                    },
+                    "module": {
+                        "font_style": "italic"
                     },
                     "number": {
                         "color": "#FF38A2",
@@ -292,6 +295,9 @@
                         "color": "#f3b4bf",
                         "font_style": null,
                         "font_weight": null
+                    },
+                    "parameter": {
+                        "font_style": "italic"
                     },
                     "predictive": {
                         "color": "#9498a1",
@@ -358,6 +364,10 @@
                         "font_style": null,
                         "font_weight": null
                     },
+                    "string.special.url": {
+                        "color": "#ff62a5",
+                        "font_style": "italic"
+                    },
                     "string.special.symbol": {
                         "color": "#37e884",
                         "font_style": null,
@@ -370,23 +380,43 @@
                     },
                     "text.literal": {
                         "color": "#94AFE8",
-                        "font_style": null,
+                        "font_style": "italic",
                         "font_weight": null
                     },
                     "title": {
                         "color": "#fe7c8e",
                         "font_style": null,
-                        "font_weight": 700
+                        "font_weight": null
                     },
                     "type": {
                         "color": "#DCBFF2",
                         "font_style": null,
                         "font_weight": null
                     },
+                    "type.class.definition": {
+                        "color": "#DCBFF2",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#DCBFF2",
+                        "font_style": "italic"
+                    },
                     "variable": {
                         "color": "#EBA4AC",
                         "font_style": null,
                         "font_weight": null
+                    },
+                    "variable.global": {
+                        "font_style": "italic"
+                    },
+                    "variable.parameter": {
+                        "color": "#EBA4AC",
+                        "font_style": "italic"
+                    },
+                    "variable.special": {
+                        "color": "#EBA4AC",
+                        "font_style": "italic"
                     },
                     "variant": {
                         "color": "#94AFE8",
